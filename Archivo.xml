@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pedido>
+  <Cliente>
+    <ID>12345</ID>
+    <Nombre>Juan Pérez</Nombre>
+    <Email>juan.perez@example.com</Email>
+    <Telefono>600123456</Telefono>
+  </Cliente>
+
+  <DireccionEnvio>
+    <Calle>Avda. de Canarias, 15</Calle>
+    <Ciudad>Las Palmas</Ciudad>
+    <Provincia>Las Palmas</Provincia>
+    <CP>35001</CP>
+    <Pais>España</Pais>
+  </DireccionEnvio>
+
+  <Productos>
+    <Producto>
+      <ID>001</ID>
+      <Nombre>Teclado mecánico RGB</Nombre>
+      <Cantidad>1</Cantidad>
+      <PrecioUnidad>69.99</PrecioUnidad>
+    </Producto>
+    <Producto>
+      <ID>002</ID>
+      <Nombre>Ratón inalámbrico</Nombre>
+      <Cantidad>2</Cantidad>
+      <PrecioUnidad>29.95</PrecioUnidad>
+    </Producto>
+  </Productos>
+
+  <Total>129.89</Total>
+  <Fecha>2025-06-10</Fecha>
+  <Estado>Procesando</Estado>
+</Pedido>
